@@ -21,7 +21,7 @@ function Hero() {
   return (
     <>
       <motion.div
-        className="h-screen max-md:h[80vh] max-sm:h-[50vh]"
+        className="h-screen max-md:h-full max-sm:h-full"
         {...headContainerAnimation}
       >
         <Nav />
