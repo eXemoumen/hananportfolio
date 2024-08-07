@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Cards from "@/components/card";
 import Link from "next/link";
 import Nav from "./nav";
@@ -40,9 +40,9 @@ function Hero() {
       <motion.section
         {...headTextAnimation}
         id="about"
-        className=" mt-16 h-screen  flex flex-col items-center gap-8 capitalize font-mono max-sm:h-full max-sm:gap-3 mt-10  "
+        className=" mt-16 h-screen  flex flex-col items-center gap-8 capitalize font-mono max-sm:h-full "
       >
-        <h1 className="font-bold text-7xl  flex justify-center my-10 max-md:text-4xl max-sm:text-4xl ">
+        <h1 className="font-bold  text-7xl  flex justify-center my-10 max-md:text-4xl max-sm:text-4xl  max-sm:my-4">
           about me
         </h1>
         <p className="text-4xl w-4/6 font-mono text-center max-sm:text-xl max-sm:w-[90vw] max-sm:h-full">
