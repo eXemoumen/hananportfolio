@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Nav from "../components/nav";
 import ParticlesComponent from "../components/partical";
 
@@ -121,7 +122,7 @@ export default function Component() {
           </div>
           <div className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <img
+              <Image
                 src="/project3 study.png "
                 width={400}
                 height={300}
@@ -129,7 +130,7 @@ export default function Component() {
                 className="rounded-lg object-cover"
                 style={{ aspectRatio: "400/300", objectFit: "cover" }}
               />
-              <img
+              <Image
                 src="/project3 study2.png"
                 width={400}
                 height={300}
@@ -139,7 +140,7 @@ export default function Component() {
               />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <img
+              <Image
                 src="/project3 study3.png"
                 width={400}
                 height={300}
@@ -147,7 +148,7 @@ export default function Component() {
                 className="rounded-lg object-cover"
                 style={{ aspectRatio: "400/300", objectFit: "cover" }}
               />
-              <img
+              <Image
                 src="/project3 study4.png"
                 width={400}
                 height={300}

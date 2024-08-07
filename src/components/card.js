@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Component() {
@@ -21,7 +22,7 @@ export default function Component() {
             className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl"
             prefetch={false}
           >
-            <img
+            <Image
               src="/projetc1 study.png"
               alt="Project 1"
               width={500}
@@ -44,7 +45,7 @@ export default function Component() {
             className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl"
             prefetch={false}
           >
-            <img
+            <Image
               src="/project2 study.png"
               alt="Project 2"
               width={500}
@@ -67,7 +68,7 @@ export default function Component() {
             className="group relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl"
             prefetch={false}
           >
-            <img
+            <Image
               src="/project3 study.png"
               alt="Project 3"
               width={500}
